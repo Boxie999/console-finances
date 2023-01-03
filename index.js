@@ -134,7 +134,7 @@ var finances = [
      }
     }
 
-    console.log(profitChange);
+    console.log('The total amount of income/losses over the entire period is $ ' + profitChange);
     
     var averageProfit = (profitChange / finances.length);
     console.log('The average of the changes in profit/losses over the entire period: $' + averageProfit.toFixed(2)) 
